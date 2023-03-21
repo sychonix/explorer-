@@ -256,7 +256,7 @@ export default {
         justify-content:center;
     }
     .dark-layout .gov-wrapper .gov {
-        background-color: #161d31;
+        background-color: #121111;
     }
     .gov-wrapper .gov {
         padding: .5rem;

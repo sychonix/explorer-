@@ -11,15 +11,13 @@
               <span>No new blocks have been produced since  <strong>{{ latestTime }}</strong> </span>
             </div>
           </b-alert>
+          <h4>CURRENT BLOCK #{{ height }}</h4>
           <b-card
             no-body
             class="mb-1"
           >
             <b-row>
-              <b-col md="3">
-                <h4>#{{ height }}</h4>
-              </b-col>
-              <b-col md="9">
+              <b-col md="12">
                 <b-input-group>
                   <b-input-group-prepend is-text>
                     <b-form-checkbox
