@@ -3,20 +3,22 @@
     <full-header />
     <b-link>
       <div class="d-flex justify-content-center align-items-center">
-        <vuexy-logo />
+        <!-- <vuexy-logo /> -->
         <h1
           class="text-primary display-4 font-weight-bolder d-none d-md-block"
         >
-          Hexawolf88 Dashboard<small class="flow-left">Beta</small>
+        <img src="logo.png" alt="logo" style="width:100px;height:100px;margin: 12px;" onContextMenu="return false;">
+
+          sychonix | EXPLORER<small class="flow-left"></small>
         </h1>
       </div>
     </b-link>
 
     <p class="mb-1">
-      Hexawolf88 Dashboard is not just an explorer but also a wallet and more ... 🛠
+     Ping Dashboard is not just an explorer but also a wallet and more ... 🛠
     </p>
     <h2 class="mb-3">
-      Cosmos Ecosystem Blockchains 🚀
+     Cosmos Ecosystem Blockchains 🚀
     </h2>
 
     <div>
