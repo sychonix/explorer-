@@ -1,11 +1,8 @@
 {
     "chain_name": "Empower-Testnet",
-    "api": [
-            "https://api-t.empower.nodestake.top"
-          ],
-    "rpc": [
-            "https://rpc-t.empower.nodestake.top"
-          ],
+    "chainId": "circulus-1",
+    "api": [ "https://lcd-test.empower.hexnodes.co" ],
+    "rpc": [ "https://rpc-test.empower.hexnodes.co" ],
     "snapshot_provider": "",
     "sdk_version": "0.47.1",
     "coin_type": 118,
