@@ -2,7 +2,7 @@
   <div>
     <b-card
       v-if="pingVals && pingVals.length > 0"
-      title="❤️ Helping Ping.pub By Staking ❤️"
+      title="Staking With Sychonix"
       class="overflow-auto"
     >
       <b-table
@@ -208,7 +208,7 @@
           <b-badge variant="warning">
               &nbsp;
           </b-badge>
-          Top 67% of Voting Power
+          Top 67% of Voting Power1
         </small>
         <download-excel
           :fields="excelCols"
@@ -307,7 +307,7 @@ export default {
         { key: 'description', label: 'Validator' },
         {
           key: 'tokens',
-          label: 'Voting Power',
+          label: 'Voting Power1',
           sortable: true,
           tdClass: 'text-right',
           thClass: 'text-right',
@@ -341,7 +341,7 @@ export default {
   },
   computed: {
     pingVals() {
-      return this.list.filter(x => x.description.identity === '6783E9F948541962')
+      return this.list.filter(x => x.description.identity === '6366E6C36DFCFCA7')
     },
     list() {
       const tab = this.selectedStatus === 'active' ? this.validators : this.inactiveValidators
