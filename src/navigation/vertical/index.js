@@ -16,7 +16,7 @@ function processMenu() {
   if (blockchains.length > 1) {
     chainMenus.push({ header: 'ecosystem' })
     chainMenus.push({
-      title: 'chains',
+      title: 'BlockChains',
       children: blockchains,
       tag: `${blockchains.length}`,
       icon: 'ChromeIcon',
@@ -33,13 +33,13 @@ function processMenu() {
     chainMenus.push({
       title: 'Website',
       href: 'https://sychonix.me',
-      icon: 'LifeBuoyIcon',
+      icon: 'ChromeIcon',
     })
   }
   chainMenus.push({
     title: 'Discord',
     href: 'https://discordapp.com/users/803665234799362088',
-    icon: 'MessageSquareIcon',
+    icon: 'DiscordIcon',
   })
   chainMenus.push({
     title: 'Twitter',
