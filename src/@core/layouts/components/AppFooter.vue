@@ -19,7 +19,6 @@
         variant="outline-primary"
       >
         <feather-icon
-          icon="HeartIcon"
           size="21"
           class="text-danger stroke-current"
         />
