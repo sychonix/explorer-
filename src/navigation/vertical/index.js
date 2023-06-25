@@ -39,7 +39,7 @@ function processMenu() {
   chainMenus.push({
     title: 'Discord',
     href: 'https://discordapp.com/users/803665234799362088',
-    icon: 'DiscordIcon',
+    icon: 'MessageSquareIcon',
   })
   chainMenus.push({
     title: 'Twitter',
