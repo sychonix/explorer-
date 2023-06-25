@@ -1,6 +1,6 @@
 <template>
   <b-nav-item>
-    <feather-icon size="21" :icon="`${isDark ? 'Sun' : 'Moon'}Icon`" />
+    <feather-icon size="21" :icon="'MoonIcon'" />
   </b-nav-item>
 </template>
 
